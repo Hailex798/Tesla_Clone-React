@@ -13,7 +13,9 @@ const HomeSection = (props) => {
                 <div>
                         <ButtonGroup>
                                 <Button color="white" bgColor="#171a20cc" text={props.LeftBtnText}/>
+                                {props.RightBtnText && 
                                 <Button color="black" bgColor="white" text={props.RightBtnText} op="0.65"/>
+                                }       
                         </ButtonGroup>
                         <DownArrow src="/images/down-arrow.svg" />
                 </div>

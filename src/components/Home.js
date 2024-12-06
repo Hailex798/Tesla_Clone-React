@@ -33,6 +33,26 @@ const Home = () => {
             LeftBtnText="Custom Order"
             RightBtnText="Existing Inventory"
             />
+            <HomeSection 
+            title="Lowest Cost Solar Panels in America"
+            description="Money-back guarantee"
+            backgroundImg="solar-panel.jpg"
+            LeftBtnText="Order now"
+            RightBtnText="Learn more"
+            />
+            <HomeSection 
+            title="Solar for New Roofs"
+            description="Solar Roof Costs Less Than a New Roof Plus Solar Panels"
+            backgroundImg="solar-roof.jpg"
+            LeftBtnText="Order now"
+            RightBtnText="Learn more"
+            />
+            <HomeSection 
+            title="Accessories"
+            description=""
+            backgroundImg="accessories.jpg"
+            LeftBtnText="Shop now"
+            />
     </Container>
   )
 }
