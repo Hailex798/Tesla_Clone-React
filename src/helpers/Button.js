@@ -1,9 +1,13 @@
 import React from 'react';
 import styled from "styled-components";
 
-const Button = ({color, bgColor, text, op = "0.85"}) => {
+const Button = ({color, bgColor, text, op = "0.85", url}) => {
+
+  const handleDivClick = () => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  }
   return (
-    <SButton color={color} bgColor={bgColor} op={op}>
+    <SButton onClick={handleDivClick} color={color} bgColor={bgColor} op={op}>
       {text}
     </SButton>
   )

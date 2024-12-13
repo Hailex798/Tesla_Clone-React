@@ -6,18 +6,22 @@ const Home = () => {
   return (
     <Container>
             <HomeSection 
+            id="model-s"
             title="Model S"
             description="Order Online for Touchless Delivery"
             backgroundImg="model-s.jpg"
             LeftBtnText="Custom Order"
             RightBtnText="Existing Inventory"
+            url="https://www.tesla.com/models/design#overview"
             />
             <HomeSection 
+            id="model-y"
             title="Model Y"
             description="Order Online for Touchless Delivery"
             backgroundImg="model-y.jpg"
             LeftBtnText="Custom Order"
             RightBtnText="Existing Inventory"
+            url="https://www.tesla.com/modely/design#overview"
             />
             <HomeSection 
             title="Model 3"
@@ -25,6 +29,7 @@ const Home = () => {
             backgroundImg="model-3.jpg"
             LeftBtnText="Custom Order"
             RightBtnText="Existing Inventory"
+            url="https://www.tesla.com/model3/design#overview"
             />
             <HomeSection 
             title="Model X"
@@ -32,6 +37,7 @@ const Home = () => {
             backgroundImg="model-x.jpg"
             LeftBtnText="Custom Order"
             RightBtnText="Existing Inventory"
+            url="https://www.tesla.com/modelx/design#overview"
             />
             <HomeSection 
             title="Lowest Cost Solar Panels in America"
@@ -39,6 +45,7 @@ const Home = () => {
             backgroundImg="solar-panel.jpg"
             LeftBtnText="Order now"
             RightBtnText="Learn more"
+            url="https://www.tesla.com/energy/design"
             />
             <HomeSection 
             title="Solar for New Roofs"
@@ -46,12 +53,14 @@ const Home = () => {
             backgroundImg="solar-roof.jpg"
             LeftBtnText="Order now"
             RightBtnText="Learn more"
+            url="https://www.tesla.com/energy/design"
             />
             <HomeSection 
             title="Accessories"
             description=""
             backgroundImg="accessories.jpg"
             LeftBtnText="Shop now"
+            url="https://shop.tesla.com/"
             />
     </Container>
   )

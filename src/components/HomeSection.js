@@ -5,16 +5,16 @@ import Button from "../helpers/Button.js";
 
 const HomeSection = (props) => {
   return (
-        <Wrapper bgImg={props.backgroundImg}>
-            <ItemText>
+        <Wrapper bgImg={props.backgroundImg} id={props.id}>
+            <ItemText data-aos="zoom-in-up">
                     <h1>{props.title}</h1>
                     <p>{props.description}</p>
             </ItemText>
                 <div>
-                        <ButtonGroup>
-                                <Button color="white" bgColor="#171a20cc" text={props.LeftBtnText}/>
+                        <ButtonGroup data-aos="zoom-in-up">
+                                <Button color="white" bgColor="#171a20cc" text={props.LeftBtnText} url={props.url} />
                                 {props.RightBtnText && 
-                                <Button color="black" bgColor="white" text={props.RightBtnText} op="0.65"/>
+                                <Button color="black" bgColor="white" text={props.RightBtnText} op="0.65" url={props.url} />
                                 }       
                         </ButtonGroup>
                         <DownArrow src="/images/down-arrow.svg" />
@@ -24,6 +24,7 @@ const HomeSection = (props) => {
 }
 
 const Wrapper = styled.section`
+        z-index: 10;
         width: 100vw;
         height: 100vh;
         background-image: ${(props) => `url("/images/${props.bgImg}")`};
