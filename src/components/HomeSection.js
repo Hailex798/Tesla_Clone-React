@@ -5,19 +5,22 @@ import Button from "../helpers/Button.js";
 
 const HomeSection = (props) => {
   return (
-        <Wrapper bgImg={props.backgroundImg} id={props.id}>
-            <ItemText data-aos="zoom-in-up">
-                    <h1>{props.title}</h1>
-                    <p>{props.description}</p>
+        <Wrapper bgImg={props.backgroundImg} id={props.id} style={{height: `${props.height}`}}>
+            <ItemText data-aos="fade-up">
+                    <h1 style={{color: `${props.fcolor}`}}>{props.title}</h1>
+                    <p style={{color: `${props.fcolor}`}}>{props.description}</p>
             </ItemText>
                 <div>
-                        <ButtonGroup data-aos="zoom-in-up">
-                                <Button color="white" bgColor="#171a20cc" text={props.LeftBtnText} url={props.url} />
+                        <ButtonGroup data-aos="fade-up">
+                                <Button color="white" bgColor="#171a20" text={props.LeftBtnText} url={props.url} />
                                 {props.RightBtnText && 
-                                <Button color="black" bgColor="white" text={props.RightBtnText} op="0.65" url={props.url} />
+                                <Button color="black" bgColor="white" text={props.RightBtnText} url={props.url} />
                                 }       
                         </ButtonGroup>
-                        <DownArrow src="/images/down-arrow.svg" />
+                        {
+                                !props.last && 
+                                <DownArrow src="/images/down-arrow.svg" />
+                        }
                 </div>
         </Wrapper>
   )

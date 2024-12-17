@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import HomeSection from './HomeSection';
+import Footer from './Footer';
 
 const Home = () => {
   return (
@@ -40,12 +41,22 @@ const Home = () => {
             url="https://www.tesla.com/modelx/design#overview"
             />
             <HomeSection 
-            title="Lowest Cost Solar Panels in America"
-            description="Money-back guarantee"
-            backgroundImg="solar-panel.jpg"
+            title="Cybertruck"
+            description="Lease Starting at $899/mo5"
+            backgroundImg="cybertruck.png"
             LeftBtnText="Order now"
             RightBtnText="Learn more"
             url="https://www.tesla.com/energy/design"
+            fcolor="white"
+            />
+            <HomeSection 
+            title="Lowest Cost Solar Panels in America"
+            description="Money-back guarantee"
+            backgroundImg="solar-panel.png"
+            LeftBtnText="Order now"
+            RightBtnText="Learn more"
+            url="https://www.tesla.com/energy/design"
+            fcolor="white"
             />
             <HomeSection 
             title="Solar for New Roofs"
@@ -61,7 +72,10 @@ const Home = () => {
             backgroundImg="accessories.jpg"
             LeftBtnText="Shop now"
             url="https://shop.tesla.com/"
+            last={true}
+            height="92.5vh"
             />
+            <Footer />
     </Container>
   )
 }

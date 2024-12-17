@@ -7,8 +7,8 @@ import 'aos/dist/aos.css';
 
 function App() {
   AOS.init({
-    duration: 1200,
-    offset: 100
+    duration: 800,
+    offset: 50
   });
   
   return (
