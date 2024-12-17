@@ -47,7 +47,7 @@ const Home = () => {
             backgroundImg="cybertruck.png"
             LeftBtnText="Order now"
             RightBtnText="Learn more"
-            url="https://www.tesla.com/energy/design"
+            url="https://www.tesla.com/cybertruck/design#overview"
             fcolor="white"
             />
             <HomeSection 
