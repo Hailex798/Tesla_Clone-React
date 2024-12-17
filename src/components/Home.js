@@ -9,7 +9,7 @@ const Home = () => {
             <HomeSection 
             id="model-s"
             title="Model S"
-            description="Order Online for Touchless Delivery"
+            description="$299/mo Leasing"
             backgroundImg="model-s.jpg"
             LeftBtnText="Custom Order"
             RightBtnText="Existing Inventory"
@@ -26,15 +26,16 @@ const Home = () => {
             />
             <HomeSection 
             title="Model 3"
-            description="Order Online for Touchless Delivery"
-            backgroundImg="model-3.jpg"
+            description="Free Supercharging Included"
+            backgroundImg="model-3.png"
             LeftBtnText="Custom Order"
             RightBtnText="Existing Inventory"
             url="https://www.tesla.com/model3/design#overview"
+            fcolor="white"
             />
             <HomeSection 
             title="Model X"
-            description="Order Online for Touchless Delivery"
+            description="From $65,990"
             backgroundImg="model-x.jpg"
             LeftBtnText="Custom Order"
             RightBtnText="Existing Inventory"

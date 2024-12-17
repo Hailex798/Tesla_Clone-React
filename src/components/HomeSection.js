@@ -43,6 +43,12 @@ const Wrapper = styled.section`
 const ItemText = styled.div`
         padding-top: 10vh;
         text-align: center;
+        h1{
+                font-size: 40px;
+        }
+        p{
+                font-size: 20px;
+        }
 `;
 
 const ButtonGroup = styled.div`
