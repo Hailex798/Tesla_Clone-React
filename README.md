@@ -29,7 +29,7 @@ Experience the project live:
 ## 🖼 **Website Preview**  
 
 ### **Landing Page View**  
-![Landing Page GIT](https://i.imgur.com/pxHz156.gif)  
+![Landing Page GIT](./public/sample/GIF.gif)  
 
 ### **Navbar in Mid-Browsing**  
 ![Model X](./public/sample/modelx_navbar.png)  
