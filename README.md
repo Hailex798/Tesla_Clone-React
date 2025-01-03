@@ -2,6 +2,9 @@
 
 > *A sleek, modern, and responsive landing page inspired by [tesla.com](https://www.tesla.com) built with cutting-edge frontend technologies.*  
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Tesla_X_App-red?style=for-the-badge)](https://teslaindia.vercel.app)  
+[![GitHub Repo](https://img.shields.io/badge/Source%20Code-Tesla_Clone_SourceCode-white?style=for-the-badge)](https://github.com/Hailex798/Tesla_Clone-React)  
+
 ---
 
 ## 🌟 **Introduction**  
@@ -29,7 +32,10 @@ Experience the project live:
 ## 🖼 **Website Preview**  
 
 ### **Landing Page View**  
-![Landing Page GIT](https://i.imgur.com/pxHz156.gif)  
+![Landing Page GIF](./public/sample/GIF.gif)  
+
+### **Main Header**  
+![Main Header](./public/sample/thumbnail.png)  
 
 ### **Navbar in Mid-Browsing**  
 ![Model X](./public/sample/modelx_navbar.png)  
@@ -37,8 +43,10 @@ Experience the project live:
 ### **Hamburger Menu**  
 ![Cybertruck + Hamburger Menu](./public/sample/cybertruck_hamburger.png) 
 
+### **Footer**  
+![Footer](./public/sample/footer.png)  
 
-*(Replace the above placeholders with actual screenshots for a professional touch.)*  
+
 
 ---
 

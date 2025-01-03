@@ -17,11 +17,12 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.gitattributes
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-./public/sample/GIF.gif
-./public/sample/GIF2.gif
-./public/sample/LIVE_PREVIEW.mp4
+public/sample/GIF2.gif
+public/images/cybertruck-emoji.png
+public/sample/LIVE_PREVIEW.mp4
